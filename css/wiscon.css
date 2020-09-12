@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.text-white {
+    color: white;
+}
+.text-red {
+    color: red;
+}
+.text-smaller {
+    font-size: small;
+}
+nav {
+    width: 100%;
+    border: 1px solid rgb(235, 229, 229);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 101;
+}
+nav h2 {
+    float: left;
+    width: 100px;
+    padding: 30px;
+}
+nav ul {
+    float: right;
+    padding: 30px 50px 10px 50px;
+    
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: bolder;
+}
+:any-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+:any-link:active {
+    color: #FA334F;
+}
+.hrLine {
+    width: 80px;
+    height: 3px;
+    background-color: #FA334F;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.homepg {
+    text-align: center;
+    margin-top: 50px;
+}
+.subHead {
+    letter-spacing: .5em;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.subTitle {
+    font-weight: 800;
+    font-size: 2em;
+    line-height: 2em;
+}
+.container {
+    display: flex;
+    height: 300px;
+}
+.wisImg {
+    width: 25%;
+}
+.card {
+    width: 370px;
+    display: inline-block;
+    position: relative;
+}
+.sign {
+    height: 300px;
+    background-color: #FA334F;
+    text-align: center;   
+}
+.cad {
+    width: 340px;
+    background-color: white;
+    margin-left: 15px;
+    padding: 20px;
+    border: 0 1px 1px 0 solid rgb(235, 229, 229);
+    box-shadow: rgb(248, 245, 245);
+}
+.cdLogo {
+    position: absolute;
+    left: 83%;
+    top: 2%;
+    z-index: 50;
+    width: 40px;
+
+}
+.cdLogo li {
+    list-style-type: none;
+    font-weight: bolder;
+    background-color: rgb(247, 243, 243);
+    padding: 7px;
+    font-size: 12px;
+    
+}
+.cdImg {
+    height: 350px;
+    width: 340px;
+}
+.cdImg h3,p {
+    padding: 5px;
+}
+.signup {
+    padding-top: 50px;
+    font-weight: lighter;
+}
+#sub {
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    background-color: #FF566E;
+    border: none;
+    font-size: 16px;
+}
+#subAc {
+    padding: 20px;
+    color: #FA3375;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.foot {
+    height: 250px;
+    background-color: black; 
+    display: flex;
+}
+.ft {
+    display: inline-block;
+    width: 33%;
+    padding-left: 100px;
+    padding-top: 110px;
+}
+.ftPics {
+    float: left;
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+}
+
+/*Sponsors*/
+.geTk {
+
+}
+.mod {
+    background-image: url("../images/venom.jpg");
+    height: 500px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    font-size: 18px;
+    
+}
+.modal h1 {
+    color: white;
+   padding-top: 200px;
+    font-size: 3.5em;
+
+}
+.modal li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+.backHome {
+    color: white;
+}
+.mainSpon {
+    color: #FA334F;
+}
+.btn {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.goldSpon {
+    padding: 20px 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 233, 233);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.silverSpon {
+    padding: 20px 40px;
+    color: rgb(255, 255, 255);
+    background-color: #FA3375;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+.logoSp {
+    float: left;
+    width: 23%;
+    height: 23%;
+    margin: 1%;
+    border: 1px solid gray;  
+    padding-top: 6%;
+}
+.hrV {
+    clear: both;
+    visibility: hidden;
+    margin-bottom: 5%;
+}
+.hrVv {
+    clear: both;
+    visibility: hidden;
+    margin-top: 5%;
+}
+.scroll {
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    border-radius: 50%;
+    background-color: #FA334F;
+    width: 50px;
+    height: 50px;
+}
